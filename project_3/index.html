@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <title>Your Local Time</title>
+    <style>
+      body {
+        background-color: #212121;
+        color: #fff;
+      }
+      nav{
+    margin: 20px;
+    padding: 10px;
+    background: black;
+    color: white;
+
+  }
+  a {
+    color:rgb(15, 15, 15);
+    text-align:center;
+    border-color: white 2px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    text-decoration: black
+    ;
+    
+  }
+  h1{
+    text-align: center;
+    color: white;
+  }
+      .center {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      #clock {
+        font-size: 40px;
+        background-color: orange;
+        padding: 20px 50px;
+        margin-top: 10px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+        <h1>BrownBoySy</h1>
+        <a href="/" aria-current="page">Home</a>
+        <a target="_blank" href="https://www.instagram.com/brownboysy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          >Instagram</a
+      >
+    </nav>
+    <div class="center">
+      <div id="banner"><span>Your local time</span></div>
+      <div id="clock"></div>
+    </div>
+    <script src="Digital_clock.js"></script>
+  </body>
+</html>
