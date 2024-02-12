@@ -1,0 +1,43 @@
+      table, th, td {
+        border: 1px solid #e7e7e7;
+        color: white;
+      }
+      .project {
+        background-color: #1c1c1c;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+      }
+
+      .color {
+        color: aliceblue;
+        display: flex;
+        flex-direction: row;
+      }
+h1 {
+    background-color: #161616;  
+    color: #fff; 
+     text-align: center; 
+  }
+
+  nav{
+    margin: 10 auto;
+    padding: 10px;
+    background: black;
+    color: white;
+
+  }
+  a {
+    color:rgb(15, 15, 15);
+    text-align:center;
+    border-color: white 2px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    text-decoration: black;
+    
+  }
+ 
